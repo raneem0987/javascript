@@ -1,10 +1,8 @@
 var n = prompt("enter the number");
-if (isNaN(10)) {
+if (isNaN(n)) {
     console.log("please enter a number");
 } else {
-    console.log("please enter an even number");
-
-    for (let x = 1; x <= 10; x++) {
+    for (let x = 1; x <= n; x++) {
         if(x % 2 === 0)
         console.log(x);
     }
